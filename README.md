@@ -1,51 +1,42 @@
-# 🧱 Pentominoes (Knapsack3D) 
+# 🎓 Algorithmic 3D & Puzzle Solvers
 
-**Version:** `v1.2.5`  
-**Date:** `22/01/2024`
+This repository houses a collection of Java-based algorithmic projects that focus on solving complex problems through optimization techniques, creative game design, and interactive problem-solving. The projects explore various aspects of computational theory, algorithm design, and graphical visualization.
 
-### 🎯 Purpose
-**Knapsack3D** is a visual and algorithmic tool that solves a 3D knapsack-filling problem using both **Cuboids** and **Pentominoes**. The aim is to optimize how space is filled within a 3D volume based on different goals, either maximizing **space usage** or **score**.
+## 🧱 Projects Included
 
----
-
-### 🚀 Getting Started
-
-1. **Download** the ZIP file and unzip it.  
-2. **Open** the unzipped folder in [Visual Studio Code](https://code.visualstudio.com/) or any Java-compatible IDE.
-3. **Compile & Run** the `UI.java` file to launch the graphical menu.
+### 1. **Knapsack3D**
+A 3D knapsack problem solver that attempts to fill a 3D space using **Cuboids** and **Pentominoes**. The goal is to efficiently pack the knapsack with the fewest empty spaces, while also considering scoring through different optimization approaches.
 
 ---
 
-### 👥 Authors
+### 2. **Pentominoes**
+A puzzle solver that aims to fill a rectangular grid with **pentomino shapes** in an optimal way. The project explores both brute force and optimized algorithms for solving the tiling problem, where the objective is to use as few shapes as possible to cover the grid without overlap.
+
+---
+
+### 3. **Petris**
+An interactive game inspired by the classic mechanics of falling blocks. The project focuses on game design and the use of algorithms to optimize the placement of falling pieces in a confined space, with the challenge of maximizing efficiency and avoiding overflow.
+
+---
+
+## 👥 Authors
+
+This repository is a collaborative project by:
+
 - Mila Georgieva Spasova  
 - Toms Cristian Nitu  
 - Dimitris Tsiplakis  
 - Martin Nedelinov Petrov  
 - Jure Kastelic  
-- Ekoe Gregorio Amah-Tchoutchoui  
+- Ekoe Gregorio Amah-tchoutchoui
 
 ---
 
-### 🕹️ How to Use
+## 💡 Learning Outcomes
 
-1. Upon launch, you're greeted with a **Start Screen** containing:
-   - **Start (Cuboids)**
-   - **Start (Pentominoes)**
-   - **Exit**
-
-2. Choosing either start option will lead to a 3D interactive menu:
-   - **FOR FILL** – Fills the knapsack to minimize empty space.
-   - **FOR SCORE** – Fills the knapsack to maximize score, even if it leaves some empty space.
-
-3. After selecting an algorithm:
-   - A 3D render of the knapsack layout will appear.
-   - You can **rotate** and inspect the model using your mouse.
-   - When done, simply **close the window** to return and try other options.
+✔️ Developed an understanding of classical optimization algorithms, including brute force and branching techniques  
+✔️ Implemented 3D visualization for real-time problem-solving  
+✔️ Gained experience in game logic and algorithmic thinking for interactive applications  
+✔️ Strengthened teamwork and version control practices in collaborative software development
 
 ---
-
-### 📸 Features
-- 🎮 Interactive 3D visualization of the knapsack layout  
-- 🤖 Two distinct algorithms: optimization by space or score  
-- 🧠 Utilizes complex shapes (Cuboids & Pentominoes)  
-- 🔁 Rerun and test different configurations with ease  
